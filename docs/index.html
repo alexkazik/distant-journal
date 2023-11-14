@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <title>Unofficial Distant Skies Journal</title>
+    <base href="/distant-journal/" />
+    <link rel="stylesheet" href="bootstrap-icons-v1.11.3/bootstrap-icons.css"/>
+    <link rel="stylesheet" href="/distant-journal/bootstrap.min-dced0d11448f7854.css" integrity="sha384&#x2D;4bw&#x2B;&#x2F;aepP&#x2F;YC94hEpVNVgiZdgIC5&#x2B;VKNBQNGCHeKRQN&#x2B;PtmoHDEXuppvnDJzQIu9"/>
+    
+    
+    
+<script type="module" nonce="anDwUGYG5dp2BTGXjTImDw==">
+import init, * as bindings from '/distant-journal/distant-journal-febefb5aef7110cb.js';
+const wasm = await init('/distant-journal/distant-journal-febefb5aef7110cb_bg.wasm');
+
+
+window.wasmBindings = bindings;
+
+
+dispatchEvent(new CustomEvent("TrunkApplicationStarted", {detail: {wasm}}));
+
+</script>
+    <link rel="icon" href="/distant-journal/favicon-40cde6e531bd3626.png" integrity="sha384&#x2D;cWGAFhxbQydqMCVZ&#x2B;D2C8IQErwenkEsHhekwcClhl1KzTcfxbZeGEK&#x2B;UlGKCmIPZ"/>
+    <link rel="stylesheet" href="/distant-journal/styles-d1f530dad39d0a97.css" integrity="sha384&#x2D;kH7&#x2B;OcWRJ5zsakJpbZjUPiOlQeVi2hPySCZ0nALgsbBSofBWWjV8qxGcro4AYb4Z"/>
+
+<link rel="modulepreload" href="/distant-journal/distant-journal-febefb5aef7110cb.js" crossorigin=anonymous integrity="sha384-LjocvUgEYgriW8ddCykEaBEa2v/lczBMFWBlaq4/ZLnwBqmOo5UZAJNUwllepfHk">
+<link rel="preload" href="/distant-journal/distant-journal-febefb5aef7110cb_bg.wasm" crossorigin=anonymous integrity="sha384-xhKeiH3ulzUf0V+7dP30pbxat0p7PacXQlYm8DP6/IlVXyTVNMyOoRXS2mP6m1uk" as="fetch" type="application/wasm"></head>
+<body>
+<div class="container" style="text-align: center">
+    <h1>Unofficial Distant Skies Journal</h1><br/>
+    <h2>Loading...</h2><br/>
+    <span class="timed" style="display: none">If you see this for too long please (force) reload.</span><br/>
+    <small class="timed" style="display: none">(Force Reload: <i class="bi bi-apple"></i>: <i class="bi bi-shift"></i><i
+            class="bi bi-command"></i>R, <i class="bi bi-windows"></i>: Ctrl+F5, <i class="bi bi-browser-safari"></i>:
+        <i class="bi bi-option"></i><i class="bi bi-command"></i>R)</small><br/>
+    <hr/>
+    <h5>Written by Alex.</h5>
+    <p>
+        Version: 1.0.5
+        <br/>
+        <a href="https://github.com/alexkazik/distant-journal" target="_blank">Source</a>
+    </p>
+</div>
+<script>
+    setTimeout(() => {
+        document.querySelectorAll('.timed').forEach(function (element) {
+            element.style.display = 'block';
+        });
+    }, 15000)
+</script>
+<!--    <script data-trunk src="static/popperjs-core-v2.11.8/popper.min.js"></script>-->
+<script src="/distant-journal/bootstrap.min-523e4030d7c1ab74.js" integrity="sha384&#x2D;Rx&#x2B;T1VzGupg4BHQYs2gCW9It&#x2B;akI2MM&#x2F;mndMCy36UVfodzcJcF0GGLxZIzObiEfa"></script>
+</body>
+</html>
