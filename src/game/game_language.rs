@@ -15,8 +15,9 @@
 #[typed_i18n(filename = "game.lrc")]
 #[typed_i18n(builder = "mixed_str")]
 pub(crate) enum GameLanguage {
-    #[serde(rename = "en")]
-    #[enum_tools(rename = "English")]
     #[default]
-    En,
+    #[enum_tools(rename = "English")]
+    #[serde(rename = "en")]
+    #[typed_i18n(name = "en")]
+    English,
 }

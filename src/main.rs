@@ -1,6 +1,6 @@
 #![forbid(unsafe_code)]
+#![deny(unused_crate_dependencies)]
 #![warn(clippy::pedantic)]
-#![allow(clippy::inline_always)]
 #![allow(clippy::missing_errors_doc)]
 #![allow(clippy::module_name_repetitions)]
 #![allow(clippy::similar_names)]

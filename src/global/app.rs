@@ -20,8 +20,10 @@ use gloo_storage::errors::StorageError;
 use gloo_storage::{LocalStorage, Storage};
 use gloo_timers::callback::Interval;
 #[cfg(feature = "debug")]
-use serde_wasm_bindgen::to_value;
+use gloo_utils::format::JsValueSerdeExt;
 use std::collections::{HashMap, VecDeque};
+#[cfg(feature = "debug")]
+use web_sys::wasm_bindgen::JsValue;
 use yew::{classes, html, Component, Context, Html};
 
 #[derive(Clone)]
@@ -114,9 +116,9 @@ impl Component for App {
         }
 
         #[cfg(feature = "debug")]
-        web_sys::console::log_1(&to_value(&result.save_settings()).unwrap());
+        web_sys::console::log_1(&JsValue::from_serde(&result.save_settings).unwrap());
         #[cfg(feature = "debug")]
-        web_sys::console::log_1(&to_value(&result.data.save_game_data()).unwrap());
+        web_sys::console::log_1(&JsValue::from_serde(&result.data.save_game_data()).unwrap());
 
         result
     }
@@ -144,7 +146,9 @@ impl Component for App {
                         let _: Result<(), StorageError> =
                             LocalStorage::set(Self::STORAGE_KEY_SETTINGS, self.save_settings());
                         #[cfg(feature = "debug")]
-                        web_sys::console::log_1(&to_value(&self.save_settings()).unwrap());
+                        web_sys::console::log_1(
+                            &JsValue::from_serde(&self.save_settings()).unwrap(),
+                        );
                         self.save_settings = false;
                     }
                     UpdateResult::empty()
@@ -249,7 +253,7 @@ impl Component for App {
             let _: Result<(), StorageError> =
                 LocalStorage::set(Self::STORAGE_KEY_GAME_DATA, self.data.save_game_data());
             #[cfg(feature = "debug")]
-            web_sys::console::log_1(&to_value(&self.data.save_game_data()).unwrap());
+            web_sys::console::log_1(&JsValue::from_serde(&self.data.save_game_data()).unwrap());
         }
         if r.contains(UpdateResult::SaveSettings) {
             #[cfg(feature = "debug")]

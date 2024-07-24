@@ -12,16 +12,17 @@ pub(crate) struct QuestLocale {
 impl QuestLocale {
     #[must_use]
     pub(crate) fn new() -> Self {
+        let language = GameLanguage::default();
         #[allow(clippy::cast_possible_truncation)]
         let mut result = Self {
-            language: GameLanguage::En,
-            translation: QUESTS[GameLanguage::En as usize]
+            language,
+            translation: QUESTS[language as usize]
                 .iter()
                 .enumerate()
                 .map(|(i, n)| (QuestId(i as u16), *n))
                 .collect(),
         };
-        result.set_language(GameLanguage::En);
+        result.set_language(language);
         result
     }
 

@@ -20,10 +20,11 @@ use yew::{AttrValue, Html};
 #[typed_i18n(builder = "mixed_str", prefix = "str_")]
 #[typed_i18n(builder = "HtmlBuilder", input = "Html")]
 pub(crate) enum MsgLanguage {
-    #[serde(rename = "en")]
-    #[enum_tools(rename = "English")]
     #[default]
-    En,
+    #[enum_tools(rename = "English")]
+    #[serde(rename = "en")]
+    #[typed_i18n(name = "en")]
+    English,
 }
 
 pub(crate) struct HtmlBuilder {
