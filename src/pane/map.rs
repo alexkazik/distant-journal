@@ -143,9 +143,9 @@ impl PaneMap {
                 let location_name = text(data.quest_locale.location(l));
                 let quests = itertools::Itertools::intersperse(data.quest_iter().filter_map(|(_, quest, name)| {
                     if let Some(ql) = quest.encounter.get(&l) {
-                        let vis = ql.iter().map(|(_, qle)| qle.vis).min().unwrap_or(Vis::Visible);
+                        let vis = ql.values().map(| qle| qle.vis).min().unwrap_or(Vis::Visible);
                         let vis = vis.max(quest.vis);
-                        let icons = ql.iter().map(|(et, _)| {
+                        let icons = ql.keys().map(|et| {
                             html! { <span class="ms-1">{ et.icon(false) }</span> }
                         });
 
@@ -168,7 +168,7 @@ impl PaneMap {
                               class="btn-sm d-flex align-items-center"
                               onclick={ctx.link().callback(move |_|MsgApp::Go(Route::MapLocation(l)))}
                               children={location_name}
-                              outline={location.map_or(false, |l|l.removed)}
+                              outline={location.is_some_and(|l|l.removed)}
                             />
                         </td>
                         <td>
@@ -223,7 +223,7 @@ pub(crate) fn note_head(s: &Note) -> String {
         s
     } else {
         cs.truncate(MAX - 2);
-        while cs.last().map_or(false, |c| !c.is_whitespace()) {
+        while cs.last().is_some_and(|c| !c.is_whitespace()) {
             cs.pop();
         }
         cs.push('…');

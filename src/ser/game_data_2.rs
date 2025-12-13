@@ -50,7 +50,7 @@ impl Data {
         )
     }
 
-    fn save_quest(quest: &Quest) -> SerdeQuest2 {
+    fn save_quest(quest: &Quest) -> SerdeQuest2<'_> {
         SerdeQuest2(
             quest.state,
             quest
@@ -67,7 +67,7 @@ impl Data {
         )
     }
 
-    pub(crate) fn save_game_data(&self) -> SerdeGameData2 {
+    pub(crate) fn save_game_data(&self) -> SerdeGameData2<'_> {
         SerdeGameData2 {
             version_2: (),
             quests: self

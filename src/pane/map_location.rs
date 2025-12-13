@@ -109,7 +109,7 @@ impl SubComponent for PaneMapLocation {
                         type="checkbox"
                         role="switch"
                         id="removed"
-                        checked={location.map_or(false, |l|l.removed)}
+                        checked={location.is_some_and(|l|l.removed)}
                         onchange={ctx.link().callback(|_|MsgMapLocation::ToggleRemoved)}
                     />
                     <label class="form-check-label" for="removed">{data.msg.ma_lo_location_removed()}</label>
