@@ -1,5 +1,5 @@
 use crate::game::game_language::GameLanguage;
-use crate::game::generated::{QUESTS, QUEST_URLS};
+use crate::game::generated::{QUEST_URLS, QUESTS};
 use crate::game::{LocationId, QuestId};
 use std::iter::Copied;
 use std::slice::Iter;

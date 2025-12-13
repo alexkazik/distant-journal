@@ -1,4 +1,4 @@
-use crate::game::generated::{QUESTS_CARDS, QUESTS_COLUMNS, QUEST_TYPES};
+use crate::game::generated::{QUEST_TYPES, QUESTS_CARDS, QUESTS_COLUMNS};
 use crate::game::quest_type::QuestType;
 use yew_bootstrap::icons::BI;
 

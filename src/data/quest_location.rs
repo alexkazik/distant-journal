@@ -3,8 +3,8 @@ use crate::data::quest::{Quest, QuestState};
 use crate::data::vis::Vis;
 use crate::game::QuestId;
 use crate::global::data::Data;
-use std::collections::btree_map::{Iter, IterMut};
 use std::collections::BTreeMap;
+use std::collections::btree_map::{Iter, IterMut};
 use std::ops::{Deref, DerefMut};
 
 #[cfg_attr(feature = "debug", derive(Debug))]
