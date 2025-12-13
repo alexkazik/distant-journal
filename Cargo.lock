@@ -177,12 +177,19 @@ dependencies = [
 ]
 
 [[package]]
+name = "deunicode"
+version = "1.6.2"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "abd57806937c9cc163efc8ea3910e00a62e2aeb0b8119f1793a978088f8f6b04"
+
+[[package]]
 name = "distant-journal"
 version = "1.0.5"
 dependencies = [
  "base64",
  "chrono",
  "csv",
+ "deunicode",
  "enum-tools",
  "enumflags2",
  "gloo-file 0.3.0",

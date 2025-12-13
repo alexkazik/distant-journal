@@ -9,6 +9,7 @@ edition = "2021"
 base64 = { version = "0.22.1", default-features = false, features = ["alloc"] }
 chrono = { version = "0.4.31", default-features = false, features = ["clock", "wasmbind"] }
 csv = { version = "1", default-features = false }
+deunicode = { version = "1.4", default-features = false, features = ["alloc"] }
 enum-tools = "0.5.3"
 enumflags2 = { version = "0.7.8", default-features = false }
 gloo-file = { version = "0.3.0", default-features = false }

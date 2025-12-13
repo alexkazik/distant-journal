@@ -1,2 +1,578 @@
 # prologue
 en Prologue
+
+# card_1
+en HERMIT
+
+# card_3
+en BREW
+
+# card_4
+en TEMPLE
+
+# card_5
+en TWINS
+
+# card_6
+en Pebble of Bones
+
+# card_7
+en MURK
+
+# card_8
+en LAKE
+
+# card_9
+en STARE
+
+# card_10
+en Whispering City
+
+# card_13
+en Treasure Map 13
+
+# card_14
+en Shorme's Star
+
+# card_15
+en Fireblast Stone
+
+# card_16
+en Tear of Meecra
+
+# card_17
+en Thrack's Pain
+
+# card_18
+en Ohmlude's Bait
+
+# card_19
+en Pebble of Luck
+
+# card_20
+en Pebble of Rats
+
+# card_21
+en Cloud Stone
+
+# card_22
+en Orfash's Rock
+
+# card_23
+en Nameless Rock
+
+# card_24
+en Eternal Geode
+
+# card_25
+en Corrupt Rock
+
+# card_26
+en Stone of Snow
+
+# card_27
+en BELL
+
+# card_29
+en SALAMANDER
+
+# card_30
+en TERROR
+
+# card_31
+en PILOT
+
+# card_32
+en LIBRARY
+
+# card_33
+en SKETCH
+
+# card_34
+en GIFT
+
+# card_35
+en CRIMINALS
+
+# card_36
+en TABLET
+
+# card_37
+en DETHRONE
+
+# card_38
+en CORPSE
+
+# card_39
+en AUNTY
+
+# card_41
+en Treasure Map 41
+
+# card_42
+en CINDER
+
+# card_43
+en DAUGHTER
+
+# card_44
+en ROBBER
+
+# card_45
+en Treasure Map 45
+
+# card_46
+en DEBT
+
+# card_47
+en WEDDING
+
+# card_48
+en HUSBAND
+
+# card_49
+en VAULT
+
+# card_51
+en Traditional
+
+# card_52
+en GLUTTON
+
+# card_53
+en BIRD
+
+# card_54
+en GROW
+
+# card_55
+en Kemter's Geode
+
+# card_56
+en HUNTER
+
+# card_59
+en Treasure Map 59
+
+# card_60
+en DIPLOMAT
+
+# card_61
+en SILK
+
+# card_62
+en LITERATURE
+
+# card_63
+en HUMBLE
+
+# card_64
+en Courageous
+
+# card_65
+en COOK
+
+# card_66
+en Treasure Map 66
+
+# card_67
+en PILLAGE
+
+# card_68
+en TOOTH
+
+# card_72
+en MERCENARY
+
+# card_73
+en PROTECT
+
+# card_74
+en THREATEN
+
+# card_75
+en PASSAGE
+
+# card_76
+en ORDER
+
+# card_77
+en KISS
+
+# card_78
+en FEATHERS
+
+# card_81
+en HAUNTING
+
+# card_83
+en Blind Eye Desert
+
+# card_84
+en CHANCE
+
+# card_85
+en OUTLANDISH
+
+# card_86
+en BUYER
+
+# card_89
+en Old Toe Rock
+
+# card_90
+en Arsosa Labyrinth
+
+# card_92
+en Treasure Map 92
+
+# card_95
+en WORSHIP
+
+# card_96
+en Chipped Stone
+
+# card_97
+en Stone of Brew
+
+# card_98
+en Treasure Map 98
+
+# card_99
+en Corpse Rock
+
+# card_100
+en Spine Rock
+
+# card_101
+en GAMBLER
+
+# card_102
+en Zarca's Eyeball
+
+# card_103
+en Treasure Map 103
+
+# card_104
+en Starspear Head
+
+# card_105
+en TOGETHER
+
+# card_106
+en Riddle Rocks
+
+# card_107
+en Skull Town
+
+# card_108
+en Treasure Map 108
+
+# card_109
+en STRING
+
+# card_111
+en Starspear Shaft
+
+# card_113
+en BOX
+
+# card_114
+en OUTPOST
+
+# card_115
+en PIOUS
+
+# card_117
+en Treasure Map 117
+
+# card_118
+en Frostbite Rock
+
+# card_119
+en Cinderland Rock
+
+# card_120
+en SUMMON
+
+# card_121
+en SPEAR
+
+# card_122
+en Stone of Moss
+
+# card_123
+en Starspear Totem
+
+# card_124
+en Royal Rock
+
+# card_125
+en LOSS
+
+# card_126
+en Balm Stone
+
+# card_127
+en Throat Stone
+
+# card_128
+en MOON
+
+# card_129
+en CURSE
+
+# card_130
+en BOILING
+
+# card_131
+en PROMISED
+
+# card_132
+en END
+
+# card_134
+en IMAGERY
+
+# card_135
+en VALUABLE
+
+# card_136
+en Treasure Map 136
+
+# card_137
+en Treasure Map 137
+
+# card_138
+en Treasure Map 138
+
+# card_139
+en Treasure Map 139
+
+# card_140
+en Treasure Map 140
+
+# card_141
+en Treasure Map 141
+
+# card_142
+en Treasure Map 142
+
+# card_143
+en Treasure Map 143
+
+# card_144
+en Treasure Map 144
+
+# card_145
+en CATS
+
+# card_146
+en BLIND
+
+# card_147
+en HISTORIAN
+
+# card_148
+en Treasure Map 148
+
+# card_150
+en Treasure Map 150
+
+# card_151
+en Blind Stone
+
+# card_152
+en Rocks of Ether
+
+# card_153
+en Treasure Map 153
+
+# card_154
+en Memory Stone
+
+# card_155
+en Treasure Map 155
+
+# card_156
+en ART
+
+# card_157
+en ONE
+
+# card_158
+en MANY
+
+# card_159
+en Transmutation Potion
+
+# card_160
+en GALLERY
+
+# card_161
+en LETTER
+
+# card_162
+en Pran
+
+# card_163
+en LOST
+
+# card_164
+en FOUND
+
+# card_165
+en Stone of Dark
+
+# card_166
+en SONNET
+
+# card_167
+en SWORD
+
+# card_172
+en CANTICLE
+
+# card_173
+en HUNT
+
+# card_174
+en HART
+
+# card_175
+en SHARK
+
+# card_176
+en OUTREACH
+
+# card_177
+en PAMPHLET
+
+# card_178
+en INVESTMENT
+
+# card_179
+en BEAST
+
+# card_180
+en SOLICITOR
+
+# card_181
+en Kemter's Larder
+
+# card_182
+en QUESTING
+
+# card_183
+en Stone of Rot
+
+# card_184
+en INVESTOR
+
+# card_185
+en ENDANGERED
+
+# card_186
+en Earring of the Bull
+
+# card_201
+en HYMN
+
+# card_202
+en ANTLERS
+
+# card_203
+en LEGEND
+
+# card_204
+en CUP
+
+# card_205
+en GOBLET
+
+# card_207
+en Treasure Map 207
+
+# card_208
+en Treasure Map 208
+
+# card_209
+en Treasure Map 209
+
+# card_211
+en Treasure Map 211
+
+# card_212
+en ROW
+
+# card_213
+en Treasure Map 213
+
+# card_214
+en LOANED
+
+# card_n1
+en DETECTIVE
+
+# card_n2
+en ASHORE
+
+# card_n3
+en CONFUSED
+
+# card_n4
+en MISSING
+
+# card_n5
+en HOSTAGE
+
+# card_n6
+en UNNATURAL
+
+# card_n7
+en RITE
+
+# card_n8
+en RIDDLE
+
+# card_n9
+en NEW GOD
+
+# card_n10
+en GRANDMOTHER
+
+# card_n11
+en DART
+
+# card_n12
+en PROTEIN
+
+# card_n13
+en WAYFOUND
+
+# card_n14
+en Stone of Assimilation
+
+# card_n17
+en SCOUT
+
+# card_n18
+en SOLVED
+
+# card_n19
+en RECOVERED
+
+# card_n20
+en HOMESTEAD
+
+# card_n24
+en Eye of the Storm
+
+# card_n25
+en TRIAL
+
+# card_n26
+en RETURNS
+
+# card_n27
+en Mortis Stone

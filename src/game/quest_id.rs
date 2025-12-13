@@ -1,4 +1,4 @@
-use crate::game::generated::{QUEST_TYPES, QUESTS_CARDS, QUESTS_COLUMNS};
+use crate::game::data::{NUM_QUESTS, QUEST_CARDS, QUEST_TYPES};
 use crate::game::quest_type::QuestType;
 use yew_bootstrap::icons::BI;
 
@@ -25,7 +25,7 @@ impl QuestId {
     #[inline]
     #[must_use]
     pub(crate) fn from_raw(raw: usize) -> Option<Self> {
-        if raw < QUESTS_COLUMNS {
+        if raw < NUM_QUESTS {
             #[allow(clippy::cast_possible_truncation)]
             Some(Self(raw as u16))
         } else {
@@ -53,7 +53,7 @@ impl QuestId {
 
     pub(crate) fn cards() -> impl Iterator<Item = (QuestId, &'static str)> {
         #[allow(clippy::cast_possible_truncation)]
-        QUESTS_CARDS
+        QUEST_CARDS
             .iter()
             .enumerate()
             .map(|(i, c)| (QuestId(i as u16), *c))
